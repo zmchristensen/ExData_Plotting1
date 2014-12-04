@@ -13,5 +13,5 @@ d[,3] <- as.numeric(d[,3])
 
 ## Open png, create plot, and close png
 png("plots/plot2.png", width = 480, height = 480)
-plot(x, d[,3], ylab = "Global Active Power (kilowatts)", xlab = "", col = "black", type = "o", pch = ".")
+plot(x, d[,3], ylab = "Global Active Power (kilowatts)", xlab = "", col = "black", type = "l", pch = ".")
 dev.off()
